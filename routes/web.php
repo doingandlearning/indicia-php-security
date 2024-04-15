@@ -20,7 +20,7 @@ Route::get('/day1/warmup', function () {
 Route::get('/day1/challenge1', function () {
     return view('day1.challenge1');
 })->name('day1.challenge1');
-Route::get('/day1/challenge2', function () {
+Route::match(['get', 'post'], '/day1/challenge2', function () {
     return view('day1.challenge2');
 })->name('day1.challenge2');
 Route::match(['get', 'post'], '/day1/challenge3', function () {
