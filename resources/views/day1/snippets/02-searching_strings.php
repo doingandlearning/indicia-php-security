@@ -1,13 +1,15 @@
 <?php
 function is_url($s)
 {
-	if (!strpos($s, 'http://')) { //strpos($s, 'http://') === false
+	if (!strpos($s, 'http')) { //strpos($s, 'http://') === false
 		return "Not a URL";
 	} else {
 		return "Is a URL";
 	}
 }
 
+
+// request()->query('email')
 // Test the function
 echo is_url('http://www.google.com') . "\n"; // true 
 

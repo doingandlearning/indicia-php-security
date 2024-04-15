@@ -14,7 +14,7 @@
 
     <form method="post">
         @csrf
-        <input type="hidden" name="price" value="10">
+        <input type="hidden" name="price" value="1000">
         <input type="hidden" name="color" value="Red">
         <button type="submit">Buy</button>
     </form>

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\ShopItemController;
+use App\Http\Controllers\ValidationController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -53,3 +54,7 @@ Route::match(['get', 'post'], '/day1/input-validation', function () {
 Route::match(['get', 'post'], '/day1/buy', function () {
     return view('day1.buy');
 })->name('day1.buy');
+
+
+Route::get('/day1/form-validation', [ValidationController::class, 'showForm'])->name('day1.form-validation');
+Route::post('/day1/form-validation', [ValidationController::class, 'submitForm'])->name('day1.form-validation');
