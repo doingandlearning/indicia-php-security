@@ -38,7 +38,7 @@
 
     <ul>
         <li>Send the value of document.cookie to GET
-            https://server.kevincunningham.co.uk/xss/three?cookie=COOKIE_PAYLOAD&name=YOUR_NAME.</li>
+            https://3e36-51-52-158-78.ngrok-free.app/xss/three?cookie=COOKIE_PAYLOAD&name=YOUR_NAME.</li>
     </ul>
 
     <details>

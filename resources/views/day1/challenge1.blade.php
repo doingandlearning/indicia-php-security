@@ -39,7 +39,7 @@
 
     <ul>
         <li>Send the value of document.cookie to GET
-            https://server.kevincunningham.co.uk/xss/one?cookie=COOKIE_PAYLOAD&name=YOUR_NAME.
+            https://3e36-51-52-158-78.ngrok-free.app/xss/one?cookie=COOKIE_PAYLOAD&name=YOUR_NAME.
         </li>
         <li>You're specifically looking for the XSRF cookie, but sending all cookies is fine.</li>
     </ul>

