@@ -1,0 +1,41 @@
+/* Typography Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Unordered List */
+ul {
+	padding: 0;
+	list-style: disc;
+	margin: 0;
+}
+
+/* List Item */
+li {
+	margin-bottom: 0.5rem;
+	margin-left: 1rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+	margin: 0;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+
+a {
+	@apply text-blue-700
+}
