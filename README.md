@@ -19,7 +19,19 @@ I'll try hard not to change any files that you might be working in once shared t
 
 The aim is for this repo to contain both the notes and the examples that will be used in our training.
 
-### Miro board:
+## Timings
+
+-   09.30 - 11.00 - Session 1
+-   11.00 - 11.15 - Coffee
+-   11.15 - 12.45 - Session 2
+-   12.45 - 13.45 - Lunch
+-   13.45 - 15.15 - Session 3
+-   15.15 - 15.30 - Coffee
+-   15.30 - 16.30 - Session 4
+
+### Miro board
+
+https://miro.com/app/board/uXjVKUIjPHo=/?share_link_id=843302215879
 
 ### Feedback link:
 
