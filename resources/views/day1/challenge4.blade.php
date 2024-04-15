@@ -58,8 +58,8 @@
         @csrf
         <p>Submit a URL and have it formatted appropriately below:</p>
         <div>
-            <textarea type="text" name="search" id="description" style="width: 95%" placeholder="Search term"
-                value="{!! strip_tags(request()->get('search')) !!}" />}" />
+            <textarea type="text" name="search" id="description" style="width: 95%" placeholder="Search term">
+                {!! strip_tags(request()->get('search')) !!}
             </textarea>
         </div>
         <p><button type="submit">Search!</button></p>
