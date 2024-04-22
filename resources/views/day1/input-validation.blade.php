@@ -10,7 +10,7 @@
 
 <body>
     <h1>Send Email</h1>
-    <p>Send email to: {{ request()->query('email') }}</p>
+    <p>Send email to: {!! request()->query('email') !!}</p>
 
     <form action="/send-email" method="post">
         @csrf

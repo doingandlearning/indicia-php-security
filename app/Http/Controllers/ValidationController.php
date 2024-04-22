@@ -15,11 +15,11 @@ class ValidationController extends Controller
 
     public function submitForm(Request $request)
     {
-        $request->validate([
-            'name' => ['required', new PalindromeRule()],
-            'age' => 'required|numeric|min:0|max:100',
-            'password' => ['required', Password::min(6)->uncompromised(10)]
-        ]);
+        // $request->validate([
+        //     'name' => ['required', new PalindromeRule()],
+        //     'age' => 'required|numeric|min:0|max:100',
+        //     'password' => ['required', Password::min(6)->uncompromised(10)]
+        // ]);
 
         // database store
 

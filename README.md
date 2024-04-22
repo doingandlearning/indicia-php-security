@@ -48,9 +48,10 @@ This is the prepared outline for the three days. We can add and remove elements 
 
 ### Day 2:
 
--   Security in AWS
+-   Security headers
 -   Incident Response and Logging
--   Dynamic/Fuzz testing
+-   AWS security
+-   Static Analysis
 -   SQL Injection
 
 ### Day 3:
