@@ -57,8 +57,13 @@ This is the prepared outline for the three days. We can add and remove elements 
 ### Day 3:
 
 -   Data Protection and Application Security Integration
+    -   GDPR
+-   Cypress
+-   CI/CD
+-   DDOS
+    -   Rate limiting
+    -   WAP/Cloudflare
 -   Auditing and Compliance
--   Open slot for anything that has come up
 -   CSRF
 
 ## After the course
