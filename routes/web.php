@@ -93,3 +93,17 @@ Route::get('/day2/search', [MemberController::class, 'search'])->name('search');
 Route::get('/day2/error-sql', [SQLDemoController::class, 'index'])->name('error-sql');
 Route::get('/day2/vulnerable-query', [SQLiDemoController::class, 'vulnerableQuery'])->name('vulnerable-query');
 Route::get('/day2/vulnerable-raw', [SQLiDemoController::class, 'vulnerableRawMethod'])->name('vulnerable-raw-method');
+
+
+Route::get("/day3", function () {
+    return view("day3.outline");
+})->name("day3");
+
+Route::get("/day3/gdpr", function () {
+    return view("day3.gdpr");
+})->name("day3.gdpr");
+
+
+Route::Get("/day3/cookies", function () {
+    return view("day3.cookies");
+})->name("day3.cookies");

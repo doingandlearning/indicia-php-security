@@ -56,15 +56,16 @@ This is the prepared outline for the three days. We can add and remove elements 
 
 ### Day 3:
 
--   Data Protection and Application Security Integration
-    -   GDPR
--   Cypress
--   CI/CD
--   DDOS
-    -   Rate limiting
-    -   WAP/Cloudflare
--   Auditing and Compliance
--   CSRF
+
+- AWS security
+- GDPR and Data Protection 
+- Cross-Origin Resource Sharing (CORS)
+- Cookies in Laravel
+- Using Cypress to Test for Security Vulnerabilities
+- CI/CD with a Security Focus
+- CSRF in Laravel
+- DDOS Protection and Rate Limiting
+- Final Security Thoughts
 
 ## After the course
 
