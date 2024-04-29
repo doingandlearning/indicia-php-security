@@ -50,22 +50,20 @@ This is the prepared outline for the three days. We can add and remove elements 
 
 -   Security headers
 -   Incident Response and Logging
--   AWS security
 -   Static Analysis
 -   SQL Injection
 
 ### Day 3:
 
-
-- AWS security
-- GDPR and Data Protection 
-- Cross-Origin Resource Sharing (CORS)
-- Cookies in Laravel
-- Using Cypress to Test for Security Vulnerabilities
-- CI/CD with a Security Focus
-- CSRF in Laravel
-- DDOS Protection and Rate Limiting
-- Final Security Thoughts
+-   AWS security
+-   GDPR and Data Protection
+-   Cross-Origin Resource Sharing (CORS)
+-   Cookies in Laravel
+-   Using Cypress to Test for Security Vulnerabilities
+-   CI/CD with a Security Focus
+-   CSRF in Laravel
+-   DDOS Protection and Rate Limiting
+-   Final Security Thoughts
 
 ## After the course
 

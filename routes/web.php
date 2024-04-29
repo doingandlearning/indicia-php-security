@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfileUserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\ShopItemController;
@@ -107,3 +108,4 @@ Route::get("/day3/gdpr", function () {
 Route::Get("/day3/cookies", function () {
     return view("day3.cookies");
 })->name("day3.cookies");
+Route::resource('/day3/users', ProfileUserController::class);

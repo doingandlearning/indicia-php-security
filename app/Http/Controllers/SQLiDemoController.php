@@ -19,7 +19,17 @@ class SQLiDemoController extends Controller
 
 
 
-        $results = DB::select($sql);
+        $results = DB::select("SELECT * FROM users WHERE email = '?'", [$email]);
+        // $users = DB::select(
+        //     'select * from users where name like ? and available = ?', 
+        //     ["%{$search}%", $available]
+        // );
+
+        // $orders = Orders::whereRaw('price > IF(state = "TX", ?, 100)', [200])->get();
+        // if() {
+
+        // }
+        $results = DB::table("users")->where("email", $email)->get();
 
         if (count($results) > 0) {
             $user = $results[0];
