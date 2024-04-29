@@ -35,6 +35,8 @@ https://miro.com/app/board/uXjVKUIjPHo=/?share_link_id=843302215879
 
 ### Feedback link:
 
+https://forms.office.com/Pages/ResponsePage.aspx?id=AbRZMmGaBU2-4wYppu4UCXoSNXuLhPlBr2Ax0BBXeilUM1pPSFZJU0NSUktUQ1RZSEcxTFVPMjlYMC4u
+
 ## Outline
 
 This is the prepared outline for the three days. We can add and remove elements as you feel necessary.
